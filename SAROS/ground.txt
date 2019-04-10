@@ -1,0 +1,171 @@
+  <!-- ============================================================== -->
+            <!-- Info box -->
+            <!-- ============================================================== -->
+            <div class="card-group">
+                <!-- Card -->
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="m-r-10">
+                                <a href="CodeFight-Play-view-<?= ck(1) ?>">
+                                    <span class="btn btn-circle btn-lg bg-danger">
+                                        <i class="mdi mdi-linux text-white"></i>
+                                    </span>
+                                </a>
+                            </div>
+                            <div>
+                                Bash
+                            </div>
+                            <div class="ml-auto">
+                                <h2 class="m-b-0 font-light"><?= Play::countCode(ck(1), $_SESSION['id']); ?></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="m-r-10"><a href="CodeFight-Play-view-<?= ck(2) ?>">
+                                    <span class="btn btn-circle btn-lg btn-default">
+                                        <i class="mdi mdi-language-c text-white"></i>
+                                    </span>
+                                </a>
+                            </div>
+                            <div>
+                                C
+
+                            </div>
+                            <div class="ml-auto">
+                                <h2 class="m-b-0 font-light"><?= Play::countCode(ck(2), $_SESSION['id']); ?></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="m-r-10"> <a href="CodeFight-Play-view-<?= ck(3) ?>">
+                                    <span class="btn btn-circle btn-lg btn-default">
+                                        <i class="mdi mdi-language-cpp text-white"></i>
+                                    </span></a>
+                            </div>
+                            <div>
+                                C++
+
+                            </div>
+                            <div class="ml-auto">
+                                <h2 class="m-b-0 font-light"><?= Play::countCode(ck(3), $_SESSION['id']); ?></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="m-r-10"> <a href="CodeFight-Play-view-<?= ck(4) ?>">
+                                    <span class="btn btn-circle btn-lg btn-default">
+                                        <i class="mdi mdi-language-csharp text-white"></i>
+                                    </span>
+                                </a>
+                            </div>
+                            <div>
+                                C#
+
+                            </div>
+                            <div class="ml-auto">
+                                <h2 class="m-b-0 font-light"><?= Play::countCode(ck(4), $_SESSION['id']); ?></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="m-r-10"> <a href="CodeFight-Play-view-<?= ck(5) ?>">
+                                    <span class="btn btn-circle btn-lg bg-success">
+                                         <strong style="margin-left: -10px; color: white">Java </strong>
+                                    </span></a>
+                            </div>
+                            <div>
+                                Java
+
+                            </div>
+                            <div class="ml-auto">
+                                <h2 class="m-b-0 font-light"><?= Play::countCode(ck(5), $_SESSION['id']); ?></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card-group">
+                <!-- Card -->
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="m-r-10"> <a href="CodeFight-Play-view-<?= ck(6) ?>">
+                                    <span class="btn btn-circle btn-lg bg-warning">
+                                        <i class="fab fa-node-js text-white"></i>
+                                    </span></a>
+                            </div>
+                            <div>
+                                JavaScript
+                            </div>
+                            <div class="ml-auto">
+                                <h2 class="m-b-0 font-light"><?= Play::countCode(ck(6), $_SESSION['id']); ?></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="m-r-10">  <a href="CodeFight-Play-view-<?= ck(7) ?>">
+                                    <span class="btn btn-circle btn-lg bg-dark">
+                                        <i class="fab fa-python text-white"></i>
+                                    </span></a>
+                            </div>
+                            <div>
+                                Python 3
+                            </div>
+                            <div class="ml-auto">
+                                <h2 class="m-b-0 font-light"><?= Play::countCode(ck(7), $_SESSION['id']); ?></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="m-r-10"> <a href="CodeFight-Play-view-<?= ck(10) ?>">
+                                    <span class="btn btn-circle btn-lg bg-info">
+                                        <i class="fab fa-html5 text-white"></i>
+                                    </span></a>
+                            </div>
+                            <div>
+                                Html 5
+                            </div>
+                            <div class="ml-auto">
+                                <h2 class="m-b-0 font-light"><?= Play::countCode(ck(10), $_SESSION['id']); ?></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center">
+                            <div class="m-r-10"> <a href="CodeFight-Play-view-<?= ck(12) ?>">
+                                    <span class="btn btn-circle btn-lg bg-purple">
+                                        <i class="fab fa-php text-white"></i>
+                                    </span></a>
+                            </div>
+                            <div>
+                                Php 7
+                            </div>
+                            <div class="ml-auto">
+                                <h2 class="m-b-0 font-light"><?= Play::countCode(ck(12), $_SESSION['id']); ?></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
